@@ -1,5 +1,6 @@
 ﻿using Microsoft.Practices.EnterpriseLibrary.ExceptionHandling;
 using System;
+using System.Diagnostics;
 using Microsoft.Practices.EnterpriseLibrary.Logging;
 
 
@@ -41,7 +42,7 @@ namespace NoExceptionPolicyDemo
             #endregion
 
             ExceptionPolicy.SetExceptionManager(exManager);
-
+            
             demo2();
             demo1();
 
