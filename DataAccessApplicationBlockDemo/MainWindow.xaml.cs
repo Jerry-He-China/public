@@ -37,6 +37,9 @@ namespace DataAccessApplicationBlockDemo
             {
                 DisplayRowValues(reader);
             }
+
+            var dbCommand = defaultDb.GetSqlStringCommand("select * from log");
+            dataGrid.ItemsSource = defaultDb.ExecuteDataSet(dbCommand).Tables[0].DefaultView;
         }
 
         void DisplayRowValues(IDataReader reader)
