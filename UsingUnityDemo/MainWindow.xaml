@@ -1,0 +1,23 @@
+﻿<Window x:Class="UsingUnityDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UsingUnityDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="First" HorizontalAlignment="Left" Margin="78,27,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Second" HorizontalAlignment="Left" Margin="78,64,0,0" VerticalAlignment="Top" Width="75" Click="ButtonSecond_Click"/>
+        <Button Content="Third" HorizontalAlignment="Left" Margin="78,100,0,0" VerticalAlignment="Top" Width="75" Click="ButtonThird_Click"/>
+        <Button Content="Forth" HorizontalAlignment="Left" Margin="78,135,0,0" VerticalAlignment="Top" Width="75" Click="ButtonForth_Click"/>
+        <Button Content="Fifth" HorizontalAlignment="Left" Margin="194,27,0,0" VerticalAlignment="Top" Width="75" Click="ButtonFifth_Click"/>
+        <Button Content="TestIfExist" HorizontalAlignment="Left" Margin="194,64,0,0" VerticalAlignment="Top" Width="75" Click="ButtonTestIfExist_Click" RenderTransformOrigin="0.604,2.933"/>
+        <Button Content="TestIfExist" HorizontalAlignment="Left" Margin="194,64,0,0" VerticalAlignment="Top" Width="75" Click="ButtonTestIfExist_Click" RenderTransformOrigin="0.604,2.933"/>
+        <Button Content="ServiceLocator" HorizontalAlignment="Left" Margin="194,135,0,0" VerticalAlignment="Top" Width="92" Click="ButtonServiceLocator_Click" RenderTransformOrigin="0.604,2.933"/>
+        <Button Content="TestIfExist" HorizontalAlignment="Left" Margin="194,100,0,0" VerticalAlignment="Top" Width="75" Click="ButtonTestIfExist_Click" RenderTransformOrigin="0.604,2.933"/>
+        <Button Content="PropertyInjection" HorizontalAlignment="Left" Margin="78,232,0,0" VerticalAlignment="Top" Width="97" Click="ButtonPropertyInjection_Click" RenderTransformOrigin="0.604,2.933"/>
+        <Button Content="PropertyInjection2" HorizontalAlignment="Left" Margin="194,232,0,0" VerticalAlignment="Top" Width="100" Click="ButtonPropertyInjection2_Click" RenderTransformOrigin="0.604,2.933"/>
+
+    </Grid>
+</Window>
