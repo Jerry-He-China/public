@@ -17,5 +17,9 @@ namespace UsingUnityDemo
             FactoryName = "Jacket - "+r.Next(10000).ToString();
         }
 
+        public JacketProductFactory(string name)
+        {
+            FactoryName = name;
+        }
     }
 }

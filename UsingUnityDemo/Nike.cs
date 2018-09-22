@@ -1,4 +1,5 @@
-﻿using Microsoft.Practices.Unity;
+﻿using System.Windows;
+using Microsoft.Practices.Unity;
 
 namespace UsingUnityDemo
 {
@@ -23,6 +24,15 @@ namespace UsingUnityDemo
 
         [Dependency("Shoe")]
         public IProductFactory ProductFactory { get; set; }
+
+        /// <summary>
+        /// 该函数在Unity容器实例化该对象时自动调用
+        /// </summary>
+        [InjectionMethod]
+        public void Initialize()
+        {
+            MessageBox.Show("Initialize Nike");
+        }
 
     }
 }

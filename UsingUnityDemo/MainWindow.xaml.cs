@@ -120,10 +120,27 @@ namespace UsingUnityDemo
             var nike = secondUnity.Resolve<Nike>();
         }
 
+        /// <summary>
+        /// 通过Override来注入
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonPropertyInjection2_Click(object sender, RoutedEventArgs e)
         {
             SetupPropertyInjectionEnvironment();
             var nike = secondUnity.Resolve<Nike>(new PropertyOverride("ProductFactory", new ShoeProductFactory()));
+        }
+
+        /// <summary>
+        /// 通过注入方法注入
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ButtonPropertyInjection3_Click(object sender, RoutedEventArgs e)
+        {
+            SetupPropertyInjectionEnvironment();
+
+            var nike = secondUnity.Resolve<Nike>();
         }
 
         private void SetupPropertyInjectionEnvironment()
@@ -131,7 +148,6 @@ namespace UsingUnityDemo
             secondUnity.RegisterType<IProductFactory,ShoeProductFactory>();
             secondUnity.RegisterType<Nike>();
         }
-        
 
         #endregion
 

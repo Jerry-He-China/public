@@ -18,6 +18,7 @@
         <Button Content="TestIfExist" HorizontalAlignment="Left" Margin="194,100,0,0" VerticalAlignment="Top" Width="75" Click="ButtonTestIfExist_Click" RenderTransformOrigin="0.604,2.933"/>
         <Button Content="PropertyInjection" HorizontalAlignment="Left" Margin="78,232,0,0" VerticalAlignment="Top" Width="97" Click="ButtonPropertyInjection_Click" RenderTransformOrigin="0.604,2.933"/>
         <Button Content="PropertyInjection2" HorizontalAlignment="Left" Margin="194,232,0,0" VerticalAlignment="Top" Width="100" Click="ButtonPropertyInjection2_Click" RenderTransformOrigin="0.604,2.933"/>
+        <Button Content="PropertyInjection3" HorizontalAlignment="Left" Margin="315,232,0,0" VerticalAlignment="Top" Width="100" Click="ButtonPropertyInjection3_Click" RenderTransformOrigin="0.604,2.933"/>
 
     </Grid>
 </Window>
