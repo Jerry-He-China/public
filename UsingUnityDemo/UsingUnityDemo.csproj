@@ -85,6 +85,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FileLogger.cs" />
+    <Compile Include="FileLoggerInterceptionBehavior.cs" />
+    <Compile Include="ILogger.cs" />
     <Compile Include="Jacket.cs" />
     <Compile Include="JacketProductFactory.cs" />
     <Compile Include="Nike.cs" />

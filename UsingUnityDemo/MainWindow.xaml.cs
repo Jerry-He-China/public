@@ -151,5 +151,10 @@ namespace UsingUnityDemo
 
         #endregion
 
+        private void ButtonXMLInjection_Click(object sender, RoutedEventArgs e)
+        {
+            var logger = secondUnity.Resolve<ILogger>("filelogger");
+            logger.Log("This is a message.");
+        }
     }
 }

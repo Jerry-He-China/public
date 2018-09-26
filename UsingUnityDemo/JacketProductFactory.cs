@@ -6,6 +6,7 @@ namespace UsingUnityDemo
     {
         public Product Create()
         {
+
             return FactoryName != null ? new Jacket(FactoryName) : new Jacket();
         }
 
