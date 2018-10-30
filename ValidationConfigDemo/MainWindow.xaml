@@ -9,5 +9,6 @@
     <StackPanel>
         <Button Content="Validation Product" Click="ButtonValidation_Click"></Button>
         <Button Content="Validation Customer" Click="ButtonValidationCustomer_Click"></Button>
+        <Button Content="Metadata" Click="ButtonMetadata_Click"></Button>
     </StackPanel>
 </Window>
