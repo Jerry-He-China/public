@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterceptionByCode", "Inter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterceptionByXml", "InterceptionByXml\InterceptionByXml.csproj", "{6168C748-6BCB-463A-8946-8C37202E78FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityExtendDemo", "UnityExtendDemo\UnityExtendDemo.csproj", "{F7927F3E-0E55-46EB-9A63-FD9BCBDDC8DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallMethodFromView", "CallMethodFromView\CallMethodFromView.csproj", "{E274B3A1-298F-47CC-99D8-2F3E84564CD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,12 +103,20 @@ Global
 		{6168C748-6BCB-463A-8946-8C37202E78FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6168C748-6BCB-463A-8946-8C37202E78FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6168C748-6BCB-463A-8946-8C37202E78FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7927F3E-0E55-46EB-9A63-FD9BCBDDC8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7927F3E-0E55-46EB-9A63-FD9BCBDDC8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7927F3E-0E55-46EB-9A63-FD9BCBDDC8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7927F3E-0E55-46EB-9A63-FD9BCBDDC8DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E274B3A1-298F-47CC-99D8-2F3E84564CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E274B3A1-298F-47CC-99D8-2F3E84564CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E274B3A1-298F-47CC-99D8-2F3E84564CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E274B3A1-298F-47CC-99D8-2F3E84564CD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.PolicyInjection.6.0.1304.0\lib\NET45
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Caching.5.0.505.0\lib\NET35
 		SolutionGuid = {6E8823FB-CC95-4718-A027-71C4546B47EB}
 	EndGlobalSection
